@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        line-height: 1.6;
+      }
+      nav {
+        background: greenyellow;
+        padding: 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .logo {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #000;
+      }
+      .nav-links {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      .nav-links li {
+        margin: 0 15px;
+      }
+      .nav-links a {
+        color: #000;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+      .nav-links a:hover {
+        text-transform: uppercase;
+        text-decoration: underline;
+      }
+      .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 40px 20px;
+      }
+      h1,
+      h2 {
+        color: aqua;
+        text-align: center;
+      }
+      p {
+        color: aquamarine;
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+      }
+      .story-section {
+        margin-top: 40px;
+        border-left: 4px solid greenyellow;
+        padding-left: 20px;
+      }
+      footer {
+        text-align: center;
+        padding: 40px;
+        color: #666;
+        border-top: 1px solid #333;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">OLIVIA'S STORE</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <h1>Our Story</h1>
+      <div class="story-section">
+        <p>
+          Founded in 2024, Olivia's Store was born out of a deep-seated passion
+          for luxury fashion and the belief that high-quality craftsmanship
+          should be accessible to those who appreciate excellence.
+        </p>
+
+        <h2>The Craft</h2>
+        <p>
+          We specialize in handcrafted bags and premium footwear. Every item in
+          our collection is meticulously selected, from the iconic Birkin bags
+          to the latest in high-end sneaker culture. We bridge the gap between
+          classic elegance and modern street style.
+        </p>
+
+        <h2>Global Reputation</h2>
+        <p>
+          Though we are a young brand, we have quickly built a reputation that
+          spans the globe. Our commitment to authenticity and quality has earned
+          us a community of loyal customers who trust us to deliver nothing but
+          the best.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Olivia's Store. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

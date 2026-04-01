@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services - OLIVIA'S STORE</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        line-height: 1.6;
+      }
+      nav {
+        background: greenyellow;
+        padding: 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .logo {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #000;
+      }
+      .nav-links {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      .nav-links li {
+        margin: 0 15px;
+      }
+      .nav-links a {
+        color: #000;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+      .nav-links a:hover {
+        text-transform: uppercase;
+        text-decoration: underline;
+      }
+      .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+      }
+      h1,
+      h2 {
+        color: aqua;
+        text-align: center;
+      }
+      p {
+        color: aquamarine;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto 30px auto;
+      }
+      .card {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin-bottom: 50px;
+      }
+      .card li {
+        color: rgb(246, 239, 20);
+        background: #222;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid #333;
+      }
+      .card img {
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto 15px auto;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2);
+      }
+      footer {
+        text-align: center;
+        padding: 40px;
+        color: #666;
+        border-top: 1px solid #333;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">OLIVIA'S STORE</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <section id="services">
+        <h1>Our Exclusive Services</h1>
+        <p>
+          We provide a wide range of premium fashion items, ensuring every
+          customer finds their perfect match in quality and style.
+        </p>
+
+        <h2>SERVICES</h2>
+        <ul class="card">
+          <li><img src="img/birkin.jpg" alt="Birkin" />Birkin bags</li>
+          <li><img src="img/download (17).jpg" alt="LV" />Louis Vuitton</li>
+          <li><img src="img/zashadu.jpg" alt="Zashadu" />Zashadu Bags</li>
+          <li><img src="img/detail.jpg" alt="Detail Africa" />Detail Africa</li>
+        </ul>
+
+        <h2>For the shoes</h2>
+        <ul class="card">
+          <li><img src="img/nike.jpg" alt="Nike" />Nike Shoes</li>
+          <li>
+            <img src="img/download (19).jpg" alt="Louboutin" />Christian
+            Louboutin
+          </li>
+          <li><img src="img/d&g.jpg" alt="Gucci" />Gucci and Gabanna</li>
+          <li><img src="img/puma.jpg" alt="Puma" />Puma Athletic</li>
+        </ul>
+
+        <h2>For sneakers (Unisex)</h2>
+        <ul class="card">
+          <li><img src="img/nike men.jpg" alt="Nike Men" />Nike</li>
+          <li><img src="img/new balace.jpg" alt="NB" />New Balance</li>
+          <li><img src="img/download (22).jpg" alt="Jordan" />Jordan</li>
+          <li><img src="img/rebook.jpg" alt="Reebok" />Reebok</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Olivia's Store. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
